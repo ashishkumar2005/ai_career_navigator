@@ -91,27 +91,25 @@ Users can either manually enter their details or upload resumes for AI-based ana
 
 ### Homepage
 
-```markdown
 ![Homepage](screenshots/homepage.png)
-```
+
+---
+
+### Manual Career Analysis
+
+![Manual Analysis](screenshots/manual_analysis.png)
+
+---
 
 ### Resume Analysis Dashboard
 
-```markdown
 ![Resume Analysis](screenshots/resume_analysis.png)
-```
 
-### Career Recommendation Dashboard
+---
 
-```markdown
-![Career Dashboard](screenshots/manual_analysis.png)
-```
+### Learning Roadmap Generation
 
-### Learning Roadmap Section
-
-```markdown
-![Roadmap](screenshots/roadmap_generation.png)
-```
+![Roadmap Generation](screenshots/roadmap_generation.png)
 
 ---
 
