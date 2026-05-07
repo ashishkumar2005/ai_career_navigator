@@ -104,7 +104,7 @@ Users can either manually enter their details or upload resumes for AI-based ana
 ### Career Recommendation Dashboard
 
 ```markdown
-![Career Dashboard](screenshots/career_dashboard.png)
+![Career Dashboard](screenshots/manual_analysis.png)
 ```
 
 ### Learning Roadmap Section
