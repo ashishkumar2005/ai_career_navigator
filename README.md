@@ -1,17 +1,17 @@
 # AI-Powered Career Suggestion and Resume Analysis System
 
-A polished Streamlit application that demonstrates career recommendation, resume parsing, NLP-style skill extraction, machine learning prediction, skill gap analysis, ATS scoring, API-style trending skill integration, and downloadable PDF reports.
+A professional Streamlit application for manual career guidance and resume-based career analysis. It demonstrates machine learning, NLP-style resume parsing, recommendation systems, ATS scoring, skill gap analysis, and downloadable PDF career reports.
 
 ## Features
 
-- Manual Career Analysis mode for skills, interests, education, domain, and strengths
-- Resume Upload Analysis mode for PDF parsing and automatic profile extraction
-- TF-IDF vectorization plus cosine similarity recommendation engine
-- Random Forest career prediction pipeline saved with Joblib
-- Career cards, readiness gauges, progress bars, Plotly charts, comparison tools, and roadmap views
-- ATS-style resume score with improvement suggestions
-- Trending skills panel with API fallback data
-- Downloadable PDF career report
+- Manual Career Analysis mode for skills, interests, education, domain, experience, goals, and strengths
+- Resume Upload Analysis mode with PDF parsing and resume validation
+- Certificate/non-resume detection before recommendations
+- TF-IDF vectorization and cosine similarity for career matching
+- Random Forest classifier for career prediction
+- Skill gap analysis, suggested tools, learning roadmap, readiness score, and ATS score
+- Career comparison dashboard with Plotly visualizations
+- Downloadable career report PDF
 
 ## Project Structure
 
@@ -31,12 +31,12 @@ A polished Streamlit application that demonstrates career recommendation, resume
 │   ├── recommender.py
 │   ├── report_generator.py
 │   ├── resume_parser.py
+│   ├── resume_validator.py
 │   └── skill_extractor.py
-├── models/
-│   ├── career_model.joblib
-│   ├── label_encoder.joblib
-│   └── tfidf_vectorizer.joblib
-└── assets/
+└── models/
+    ├── career_model.joblib
+    ├── label_encoder.joblib
+    └── tfidf_vectorizer.joblib
 ```
 
 ## Run Locally
@@ -47,14 +47,6 @@ python train_model.py
 streamlit run app.py
 ```
 
-If you use the bundled Codex runtime, replace `python` with the bundled Python path shown by Codex.
+## Streamlit Deployment
 
-## Interview Talking Points
-
-- ML: Random Forest Classifier trained from career-role data
-- NLP: resume text extraction, text cleaning, skill and interest detection
-- Recommendation System: TF-IDF vectors and cosine similarity
-- Data Handling: Pandas/NumPy preprocessing over CSV datasets
-- API Integration: trending skills request with resilient fallback
-- Product Design: Streamlit dashboard with charts, cards, reports, and comparison
-
+Use `app.py` as the main file path when deploying to Streamlit Community Cloud.
